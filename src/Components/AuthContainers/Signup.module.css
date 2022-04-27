@@ -1,0 +1,95 @@
+.container {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  background-image: url("../../Assets/bg2.jpg");
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.innercontainer {
+  height: 70vh;
+  width: 50vw;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  display: flex;
+}
+.leftContainer {
+  width: 45%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rightContainer {
+  height: 100%;
+  width: 55%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.logo {
+  height: 30vh;
+  border-radius: 15vh;
+  margin-left: 4vw;
+}
+.rightContainer label {
+  font-size: 1rem;
+  align-self: flex-start;
+  margin-left: 27.5%;
+}
+.rightContainer input {
+  background: rgba(11, 3, 12, 0.5);
+  border: 0px;
+  height: 4vh;
+  color: white;
+}
+.rightContainer input:focus {
+  outline-width: 0;
+}
+.rightContainer button {
+  width: 10vw;
+  height: 5vh;
+  background-color: rgba(11, 3, 12, 0.5);
+  border: 0;
+  margin: 2.5vh;
+  color: white;
+  font-size: 1rem;
+  border-radius: 10px;
+}
+.otheritems {
+  height: 10%;
+  width: 50%;
+  margin: 0%;
+  display: flex;
+  justify-content: space-around;
+}
+.otherLogo {
+  height: 2rem;
+  border-radius: 1rem;
+  margin-top: 10px;
+}
+.rightContainer p {
+  font-size: small;
+  margin: 0;
+}
+.signuptext {
+  font-weight: 600;
+  color: white;
+  padding-left: 5px;
+  cursor: pointer;
+}
+.haveAccount {
+  color: gray;
+}
+.aligndiv {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.rightContainer button:hover {
+  background-color: rgba(78, 78, 78, 0.8);
+}

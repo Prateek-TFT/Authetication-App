@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  position: fixed;
+  height: 10vh;
+  width: 100vw;
+  background: rgba(0, 0, 0, 0.7);
+  align-items: center;
+  color: white;
+}
+.Icon {
+  height: 80%;
+  border-radius: 50%;
+  margin: 0vw 5vw;
+}
+.NavLink {
+  text-decoration: none;
+  color: white;
+  margin: 0px 2vw;
+}
+.NavLink:hover {
+  color: blue;
+}
+
+.button {
+  background-color: black;
+  color: white;
+  border: 0;
+  height: 6vh;
+  width: 6vw;
+  border-radius: 3vh;
+}
+* {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.hotel_Name {
+  font-size: x-large;
+  margin: 0vw 33vw 0vw 0vw;
+}
